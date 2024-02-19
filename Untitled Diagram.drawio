@@ -1,9 +1,43 @@
-<mxfile host="app.diagrams.net" modified="2024-02-19T13:58:48.329Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" version="23.1.5" etag="xoivoty7LrWSF1z2xaZc" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-19T14:03:44.013Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="67_3uJYEnjkjglXjc-B1" version="23.1.5" type="github">
   <diagram name="Page-1" id="p5RvqFCWG5NX3lr98CSM">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="761" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="3vNLcXzRQJE0KKm7NE2v-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3vNLcXzRQJE0KKm7NE2v-1" target="3vNLcXzRQJE0KKm7NE2v-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3vNLcXzRQJE0KKm7NE2v-4" value="POST /register&lt;br&gt;{ flight data }" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3vNLcXzRQJE0KKm7NE2v-3">
+          <mxGeometry x="-0.325" y="-2" relative="1" as="geometry">
+            <mxPoint x="21" y="14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3vNLcXzRQJE0KKm7NE2v-1" value="Flight booked or modified" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="201" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3vNLcXzRQJE0KKm7NE2v-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3vNLcXzRQJE0KKm7NE2v-2" target="3vNLcXzRQJE0KKm7NE2v-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3vNLcXzRQJE0KKm7NE2v-11" value="POST /import_trip" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3vNLcXzRQJE0KKm7NE2v-10">
+          <mxGeometry x="-0.275" y="-1" relative="1" as="geometry">
+            <mxPoint x="16" y="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3vNLcXzRQJE0KKm7NE2v-2" value="flight_status" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="395" y="201" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3vNLcXzRQJE0KKm7NE2v-5" value="eg. Could be a new step in the automated modification flow, also added to the manual flow and to the booking flow" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="225" y="66" width="175" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="3vNLcXzRQJE0KKm7NE2v-7" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="3vNLcXzRQJE0KKm7NE2v-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="313" y="229" as="sourcePoint" />
+            <mxPoint x="321" y="154" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3vNLcXzRQJE0KKm7NE2v-9" value="cirium" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="678" y="201" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
